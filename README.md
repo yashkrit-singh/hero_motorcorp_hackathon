@@ -109,15 +109,17 @@ The FastAPI server:
   "status": "accepted",
   "confidence": 0.83
 }
+```
+
 ### Example Response (Rejected)
 
-\`\`\`json
+```json
 {
   "status": "rejected",
   "reason": "Image quality insufficient",
   "confidence": 0.27
 }
-\`\`\`
+```
 
 ---
 
