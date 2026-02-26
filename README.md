@@ -55,6 +55,7 @@ Structured JSON Output
 
 ## 📂 Project Structure
 
+```bash
 project_root/
 │
 ├── database/
@@ -74,6 +75,7 @@ project_root/
 │
 ├── .gitignore
 └── README.md
+```
 
 ---
 
