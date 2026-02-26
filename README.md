@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # 🚗 Edge-to-Cloud AI Vehicle Damage Assessment System
 
 An intelligent Edge-to-Cloud AI architecture designed to automate vehicle inspection using computer vision and deep learning.
