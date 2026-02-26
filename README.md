@@ -72,6 +72,7 @@ project_root/
 │   ├── uploads/
 │   └── requirements.txt
 │
+├── .gitignore
 └── README.md
 
 ---
