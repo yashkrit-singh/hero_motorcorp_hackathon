@@ -109,3 +109,94 @@ The FastAPI server:
   "status": "accepted",
   "confidence": 0.83
 }
+### Example Response (Rejected)
+
+\`\`\`json
+{
+  "status": "rejected",
+  "reason": "Image quality insufficient",
+  "confidence": 0.27
+}
+\`\`\`
+
+---
+
+## 🚀 Installation & Setup
+
+### 1️⃣ Clone Repository
+
+\`\`\`bash
+git clone <your-repository-url>
+cd project_root/backend
+\`\`\`
+
+### 2️⃣ Create Virtual Environment (Recommended)
+
+\`\`\`bash
+python3 -m venv venv
+source venv/bin/activate
+\`\`\`
+
+### 3️⃣ Install Dependencies
+
+\`\`\`bash
+pip install fastapi uvicorn tensorflow opencv-python python-multipart
+\`\`\`
+
+### 4️⃣ Run FastAPI Server
+
+\`\`\`bash
+python3 -m uvicorn main:app --reload
+\`\`\`
+
+Open:
+
+http://127.0.0.1:8000/docs
+
+Use Swagger UI to upload and test images.
+
+---
+
+## 📊 Model Training Workflow
+
+- Generate synthetic distortions (blur, glare, darkness)
+- Train MobileNetV2 using transfer learning
+- Fine-tune last layers
+- Convert model to TFLite
+- Integrate with FastAPI backend
+
+---
+
+## 🔮 Future Improvements
+
+- YOLO-based multi-class damage detection
+- Mask R-CNN vehicle part segmentation
+- IoU-based damage-to-part mapping
+- Severity grading engine
+- Grad-CAM explainability layer
+- Mobile deployment (Flutter + TFLite)
+
+---
+
+## 🛠 Technologies Used
+
+- Python
+- TensorFlow / Keras
+- TensorFlow Lite
+- OpenCV
+- FastAPI
+- Uvicorn
+
+---
+
+## 👤 Author
+
+Yashkrit Singh  
+B.Tech Mechanical Engineering  
+IIT Patna  
+
+---
+
+## 📜 License
+
+This project is developed for research and hackathon purposes.
