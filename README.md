@@ -194,8 +194,8 @@ Use Swagger UI to upload and test images.
 ## 👥 Authors
 
 - **[Yashkrit Singh](https://github.com/your-username)** — B.Tech Mechanical Engineering, IIT Patna  
-- **[Sumit Rajpoot](https://github.com/sumit-username)** — B.Tech Engineering Physics  
-- **[Chhavi Bamoriya](https://github.com/chhavi-username)** — B.Tech Chemical Engineering  
+- **[Sumit Rajpoot](https://github.com/Sumit90557)** — B.Tech Engineering Physics  
+- **[Chhavi Bamoriya](https://github.com/bchhavi)** — B.Tech Chemical Engineering  
 ---
 
 ## 📜 License
