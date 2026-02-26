@@ -127,29 +127,29 @@ The FastAPI server:
 
 ### 1️⃣ Clone Repository
 
-\`\`\`bash
+```bash
 git clone <your-repository-url>
 cd project_root/backend
-\`\`\`
+```
 
 ### 2️⃣ Create Virtual Environment (Recommended)
 
-\`\`\`bash
+```bash
 python3 -m venv venv
 source venv/bin/activate
-\`\`\`
+```
 
 ### 3️⃣ Install Dependencies
 
-\`\`\`bash
+```bash
 pip install fastapi uvicorn tensorflow opencv-python python-multipart
-\`\`\`
+```
 
 ### 4️⃣ Run FastAPI Server
 
-\`\`\`bash
+```bash
 python3 -m uvicorn main:app --reload
-\`\`\`
+```
 
 Open:
 
@@ -191,12 +191,11 @@ Use Swagger UI to upload and test images.
 
 ---
 
-## 👤 Author
+## 👥 Authors
 
-Yashkrit Singh  
-B.Tech Mechanical Engineering  
-IIT Patna  
-
+- **[Yashkrit Singh](https://github.com/your-username)** — B.Tech Mechanical Engineering, IIT Patna  
+- **[Sumit Rajpoot](https://github.com/sumit-username)** — B.Tech Engineering Physics  
+- **[Chhavi Bamoriya](https://github.com/chhavi-username)** — B.Tech Chemical Engineering  
 ---
 
 ## 📜 License
